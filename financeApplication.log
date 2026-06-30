@@ -1,0 +1,149 @@
+2026-06-30T10:57:48.087+05:30  INFO 26076 --- [Finance_FinalProject] [main] c.e.demo.FinanceFinalProjectApplication  : Starting FinanceFinalProjectApplication using Java 21.0.11 with PID 26076 (C:\SpringBoot_Stackly\Finance_FinalProject\target\classes started by aravi in C:\SpringBoot_Stackly\Finance_FinalProject)
+2026-06-30T10:57:48.108+05:30 DEBUG 26076 --- [Finance_FinalProject] [main] c.e.demo.FinanceFinalProjectApplication  : Running with Spring Boot v4.1.0, Spring v7.0.8
+2026-06-30T10:57:48.112+05:30  INFO 26076 --- [Finance_FinalProject] [main] c.e.demo.FinanceFinalProjectApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-06-30T10:57:50.539+05:30  INFO 26076 --- [Finance_FinalProject] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-30T10:57:50.672+05:30  INFO 26076 --- [Finance_FinalProject] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 109 ms. Found 5 JPA repository interfaces.
+2026-06-30T10:57:52.104+05:30  INFO 26076 --- [Finance_FinalProject] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-06-30T10:57:52.136+05:30  INFO 26076 --- [Finance_FinalProject] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-30T10:57:52.137+05:30  INFO 26076 --- [Finance_FinalProject] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-06-30T10:57:52.265+05:30  INFO 26076 --- [Finance_FinalProject] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 4018 ms
+2026-06-30T10:57:52.825+05:30  INFO 26076 --- [Finance_FinalProject] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-06-30T10:57:52.953+05:30  INFO 26076 --- [Finance_FinalProject] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.4.1.Final
+2026-06-30T10:57:53.731+05:30  INFO 26076 --- [Finance_FinalProject] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-30T10:57:53.803+05:30  INFO 26076 --- [Finance_FinalProject] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-06-30T10:57:54.142+05:30  INFO 26076 --- [Finance_FinalProject] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5af4328e
+2026-06-30T10:57:54.144+05:30  INFO 26076 --- [Finance_FinalProject] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-06-30T10:57:54.315+05:30  INFO 26076 --- [Finance_FinalProject] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/springboot?useSSL=false]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.46
+	Default catalog/schema: springboot/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-30T10:57:55.920+05:30  INFO 26076 --- [Finance_FinalProject] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-30T10:57:56.089+05:30  INFO 26076 --- [Finance_FinalProject] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-30T10:57:56.211+05:30  INFO 26076 --- [Finance_FinalProject] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-06-30T10:57:58.015+05:30  WARN 26076 --- [Finance_FinalProject] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-30T10:57:59.144+05:30  INFO 26076 --- [Finance_FinalProject] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 13 endpoints beneath base path '/actuator'
+2026-06-30T10:57:59.303+05:30  INFO 26076 --- [Finance_FinalProject] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-06-30T10:57:59.319+05:30  INFO 26076 --- [Finance_FinalProject] [main] c.e.demo.FinanceFinalProjectApplication  : Started FinanceFinalProjectApplication in 12.181 seconds (process running for 12.918)
+2026-06-30T10:57:59.493+05:30  WARN 26076 --- [Finance_FinalProject] [main] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-06-30T10:57:59.494+05:30  WARN 26076 --- [Finance_FinalProject] [main] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-06-30T10:59:52.008+05:30  INFO 26076 --- [Finance_FinalProject] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-30T10:59:52.009+05:30  INFO 26076 --- [Finance_FinalProject] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-06-30T10:59:52.018+05:30  INFO 26076 --- [Finance_FinalProject] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2026-06-30T10:59:52.143+05:30  WARN 26076 --- [Finance_FinalProject] [http-nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<?> com.example.demo.controller.CustomerController.createCustomer(com.example.demo.dto.request.CreateCustomer)]
+2026-06-30T11:00:04.655+05:30 ERROR 26076 --- [Finance_FinalProject] [http-nio-8080-exec-4] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: jakarta.validation.ConstraintViolationException: getAllCustomer.size: must be greater than or equal to 1] with root cause
+
+jakarta.validation.ConstraintViolationException: getAllCustomer.size: must be greater than or equal to 1
+	at org.springframework.validation.beanvalidation.MethodValidationInterceptor.invoke(MethodValidationInterceptor.java:168) ~[spring-context-7.0.8.jar:7.0.8]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.8.jar:7.0.8]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:719) ~[spring-aop-7.0.8.jar:7.0.8]
+	at com.example.demo.controller.CustomerController$$SpringCGLIB$$0.getAllCustomer(<generated>) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:252) ~[spring-web-7.0.8.jar:7.0.8]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:184) ~[spring-web-7.0.8.jar:7.0.8]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-7.0.8.jar:7.0.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934) ~[spring-webmvc-7.0.8.jar:7.0.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853) ~[spring-webmvc-7.0.8.jar:7.0.8]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86) ~[spring-webmvc-7.0.8.jar:7.0.8]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963) ~[spring-webmvc-7.0.8.jar:7.0.8]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866) ~[spring-webmvc-7.0.8.jar:7.0.8]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1000) ~[spring-webmvc-7.0.8.jar:7.0.8]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:892) ~[spring-webmvc-7.0.8.jar:7.0.8]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:622) ~[tomcat-embed-core-11.0.22.jar:6.1]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874) ~[spring-webmvc-7.0.8.jar:7.0.8]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710) ~[tomcat-embed-core-11.0.22.jar:6.1]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-11.0.22.jar:11.0.22]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-7.0.8.jar:7.0.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.8.jar:7.0.8]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-7.0.8.jar:7.0.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.8.jar:7.0.8]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:110) ~[spring-web-7.0.8.jar:7.0.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.8.jar:7.0.8]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199) ~[spring-web-7.0.8.jar:7.0.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.8.jar:7.0.8]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:1272) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1801) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2026-06-30T11:04:13.263+05:30  INFO 26880 --- [Finance_FinalProject] [main] c.e.demo.FinanceFinalProjectApplication  : Starting FinanceFinalProjectApplication using Java 21.0.11 with PID 26880 (C:\SpringBoot_Stackly\Finance_FinalProject\target\classes started by aravi in C:\SpringBoot_Stackly\Finance_FinalProject)
+2026-06-30T11:04:13.271+05:30 DEBUG 26880 --- [Finance_FinalProject] [main] c.e.demo.FinanceFinalProjectApplication  : Running with Spring Boot v4.1.0, Spring v7.0.8
+2026-06-30T11:04:13.274+05:30  INFO 26880 --- [Finance_FinalProject] [main] c.e.demo.FinanceFinalProjectApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-06-30T11:04:15.554+05:30  INFO 26880 --- [Finance_FinalProject] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-30T11:04:15.689+05:30  INFO 26880 --- [Finance_FinalProject] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 108 ms. Found 5 JPA repository interfaces.
+2026-06-30T11:04:17.127+05:30  INFO 26880 --- [Finance_FinalProject] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-06-30T11:04:17.156+05:30  INFO 26880 --- [Finance_FinalProject] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-30T11:04:17.157+05:30  INFO 26880 --- [Finance_FinalProject] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-06-30T11:04:17.280+05:30  INFO 26880 --- [Finance_FinalProject] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 3864 ms
+2026-06-30T11:04:17.861+05:30  INFO 26880 --- [Finance_FinalProject] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-06-30T11:04:18.012+05:30  INFO 26880 --- [Finance_FinalProject] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.4.1.Final
+2026-06-30T11:04:18.844+05:30  INFO 26880 --- [Finance_FinalProject] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-30T11:04:18.911+05:30  INFO 26880 --- [Finance_FinalProject] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-06-30T11:04:19.248+05:30  INFO 26880 --- [Finance_FinalProject] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@67823972
+2026-06-30T11:04:19.251+05:30  INFO 26880 --- [Finance_FinalProject] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-06-30T11:04:19.428+05:30  INFO 26880 --- [Finance_FinalProject] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/springboot?useSSL=false]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.46
+	Default catalog/schema: springboot/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-30T11:04:21.119+05:30  INFO 26880 --- [Finance_FinalProject] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-30T11:04:21.305+05:30  INFO 26880 --- [Finance_FinalProject] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-30T11:04:21.445+05:30  INFO 26880 --- [Finance_FinalProject] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-06-30T11:04:23.388+05:30  WARN 26880 --- [Finance_FinalProject] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-30T11:04:24.598+05:30  INFO 26880 --- [Finance_FinalProject] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 13 endpoints beneath base path '/actuator'
+2026-06-30T11:04:24.777+05:30  INFO 26880 --- [Finance_FinalProject] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-06-30T11:04:24.798+05:30  INFO 26880 --- [Finance_FinalProject] [main] c.e.demo.FinanceFinalProjectApplication  : Started FinanceFinalProjectApplication in 12.419 seconds (process running for 13.167)
+2026-06-30T11:04:24.965+05:30  WARN 26880 --- [Finance_FinalProject] [main] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-06-30T11:04:24.965+05:30  WARN 26880 --- [Finance_FinalProject] [main] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-06-30T11:04:40.103+05:30  INFO 26880 --- [Finance_FinalProject] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-30T11:04:40.104+05:30  INFO 26880 --- [Finance_FinalProject] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-06-30T11:04:40.109+05:30  INFO 26880 --- [Finance_FinalProject] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2026-06-30T11:04:40.289+05:30  INFO 26880 --- [Finance_FinalProject] [http-nio-8080-exec-1] c.e.demo.service.CustomerServiceImpli    : Customer Details Fetching..
+2026-06-30T11:04:40.653+05:30  INFO 26880 --- [Finance_FinalProject] [http-nio-8080-exec-1] c.e.demo.service.CustomerServiceImpli    : Customer Details Fetched Successfullyy..
+2026-06-30T11:04:40.865+05:30  WARN 26880 --- [Finance_FinalProject] [http-nio-8080-exec-1] ration$PageModule$WarningLoggingModifier : Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2026-06-30T11:05:22.980+05:30  INFO 26880 --- [Finance_FinalProject] [http-nio-8080-exec-2] c.e.demo.service.CustomerServiceImpli    : Customer Details Fetching..
+2026-06-30T11:05:23.006+05:30  INFO 26880 --- [Finance_FinalProject] [http-nio-8080-exec-2] c.e.demo.service.CustomerServiceImpli    : Customer Details Fetched Successfullyy..
+2026-06-30T11:06:52.987+05:30  WARN 26880 --- [Finance_FinalProject] [http-nio-8080-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<?> com.example.demo.controller.CustomerController.createCustomer(com.example.demo.dto.request.CreateCustomer)]
+2026-06-30T11:08:04.649+05:30  INFO 26880 --- [Finance_FinalProject] [http-nio-8080-exec-8] c.e.demo.service.CustomerServiceImpli    : Updating customer id: 5
+2026-06-30T11:08:04.706+05:30  INFO 26880 --- [Finance_FinalProject] [http-nio-8080-exec-8] c.e.demo.service.CustomerServiceImpli    : Customer Details updating started...
+2026-06-30T11:08:04.733+05:30  INFO 26880 --- [Finance_FinalProject] [http-nio-8080-exec-8] c.e.demo.service.CustomerServiceImpli    : Customer details Updated Successfully...
+2026-06-30T11:08:54.495+05:30  WARN 26880 --- [Finance_FinalProject] [http-nio-8080-exec-9] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'DELETE' is not supported]
+2026-06-30T11:09:19.884+05:30  INFO 26880 --- [Finance_FinalProject] [http-nio-8080-exec-10] c.e.demo.service.CustomerServiceImpli    : Custtomer Deleted Successfully...
+2026-06-30T11:50:48.107+05:30  INFO 26880 --- [Finance_FinalProject] [http-nio-8080-exec-8] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 2376 ms
+2026-06-30T12:37:54.183+05:30  WARN 26880 --- [Finance_FinalProject] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=13m1s2ms550µs400ns).
